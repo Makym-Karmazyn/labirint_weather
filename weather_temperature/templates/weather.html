@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переведення символів</title>
+    <link rel="stylesheet" href="/static/weather.css">
+    <script src="/static/weather.js"></script>
+
+</head>
+<body>
+<form method="post" id="full_form">
+    <div class="container">
+
+        <div class="translator">
+            <div class="input-section">
+
+                <textarea placeholder="Введіть вашу погоду цельсій остут..." oninput="convert()" name="temp"></textarea>
+            </div>
+            <div class="output-section" id="outputText">
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Введи температуру щоб дізнатимя інформацію <b style="color:red">Обовязково в цельсіях</b></p>
+
+        </div>
+    </div>
+</form>
+</body>
+</html>
